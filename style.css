@@ -1,0 +1,29 @@
+.demo-1 {
+  background-color: red;
+}
+.demo-2 {
+  background-color: yellow;
+}
+.demo-3 {
+  background-color: pink;
+}
+.demo-4 {
+  background-color: blue;
+}
+.col-6 {
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .demo-1 {
+    background-color: powderblue;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+}

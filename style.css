@@ -12,6 +12,7 @@
 }
 .col-6 {
   width: 50%;
+  height: 100px;
 }
 .row {
   display: flex;
@@ -25,5 +26,8 @@
   }
   .col-md-3 {
     width: 25%;
+    height: 100px;
+    position: relative;
+    border: 1px solid;
   }
 }
